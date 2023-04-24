@@ -32,7 +32,7 @@ Usage and examples of basics, aggregations & functions in PromQL (Prometheus que
 - Client side sampling of obervations and counted in buckets
 - Internally actually exposes various counter type metrics:
     - x_sum
-      → Sum of total observed valuse
+      → Sum of total observed values
     - x_count
       → Count of total number of observations
     - x_bucket{le=v1}
